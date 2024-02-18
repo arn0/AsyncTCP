@@ -26,6 +26,7 @@
 #include "sdkconfig.h"
 #include <functional>
 extern "C" {
+    #include "freertos/FreeRTOS.h"
     #include "freertos/semphr.h"
     #include "lwip/pbuf.h"
 }
